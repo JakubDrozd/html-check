@@ -13,8 +13,8 @@ yes_button.addEventListener("click", function(){
 })
 
 function change() {
-    var i = Math.floor(Math.random()*200) +1;
-    var j = Math.floor(Math.random()*200) +1;
+    var i = Math.floor(Math.random()*150) +1;
+    var j = Math.floor(Math.random()*150) +1;
     no_button.style.left = i+"px";
     no_button.style.top = j+"px";
     var texts = ["Na pewno?", "Jesteś pewna?", "No weź...", "Ta druga opcja jest lepsza!", "Pls :c"];
